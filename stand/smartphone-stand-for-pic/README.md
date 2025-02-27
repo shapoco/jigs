@@ -30,6 +30,12 @@
 
 滑り止めのために底面の四隅にゴム足を取り付けることができますが、積層痕が残ったままだとすぐに剥がれてしまうかもしれません。ゴム足を貼り付ける前に紙やすり等で底面をツルツルにしておくことをお勧めします。
 
+## 作例
+
+[くろゴマ](https://x.com/chrogoma/status/1893577562544288175)さん
+[あっきぃ](https://misskey.io/notes/a4e209jp9shp09ze)さん 
+<!-- [シャポコ](https://x.com/shapoco/status/1889340554968018978) -->
+
 ## ギャラリー
 
 ![](./images/pic0.jpg) ![](./images/pic1.jpg) ![](./images/pic2.jpg) ![](./images/pic3.jpg) ![](./images/pic4.jpg)
