@@ -32,7 +32,8 @@
 
 ## 作例
 
-[くろゴマ](https://x.com/chrogoma/status/1893577562544288175)さん
+[kaiba](https://x.com/kaiba/status/1902588182216261970)さん、
+[くろゴマ](https://x.com/chrogoma/status/1893577562544288175)さん、
 [あっきぃ](https://misskey.io/notes/a4e209jp9shp09ze)さん 
 <!-- [シャポコ](https://x.com/shapoco/status/1889340554968018978) -->
 
