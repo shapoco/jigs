@@ -9,16 +9,16 @@ DISC_DIAMETER = 20
 SPHERE_RADIUS = 20
 
 # シャフトの直径
-SHAFT_DIAMETER = 2
+SHAFT_DIAMETER = 2.25
 
 # シャフトの穴の直径マージン
-SHAFT_HOLE_DIAMETER_MARGIN = 0.5
+SHAFT_HOLE_DIAMETER_MARGIN = 0.25
 
 # シャフト取り付け穴の深さ
 SHAFT_HOLE_DEPTH = 15
 
 # シャフトガイドの壁厚
-SHAFT_GUIDE_THICKNESS = 2
+SHAFT_GUIDE_THICKNESS = 3
 
 # 曲面のパラメータ
 curve_angle = math.asin((DISC_DIAMETER / 2) / SPHERE_RADIUS)
@@ -129,7 +129,7 @@ show_object(pipe.translate((-display_offset, 0, 0)), name="Pipe")
 
 # 出力
 for fmt in ["step", "stl"]:
-    dir_name = f"d{DISC_DIAMETER}_r{SPHERE_RADIUS}_s{SHAFT_DIAMETER}/{fmt}"
+    dir_name = f"d{DISC_DIAMETER}-r{SPHERE_RADIUS}-s{SHAFT_DIAMETER}/{fmt}"
     os.makedirs(dir_name, exist_ok=True)
     attachment.export(f"{dir_name}/attachment.{fmt}")
     cap.export(f"{dir_name}/cap.{fmt}")
