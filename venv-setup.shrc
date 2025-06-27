@@ -1,0 +1,3 @@
+python -m venv venv
+./venv/bin/pip install -r requirements.txt
+alias CQ-editor="$(pwd)/venv/bin/CQ-editor"
