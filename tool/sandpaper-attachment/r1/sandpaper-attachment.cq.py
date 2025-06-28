@@ -86,7 +86,7 @@ if shaft_guide_chamfer > 0:
     attachment = (
         attachment
         .edges("%circle")
-        .edges(">>Z[-3]")[0]
+        .edges(">>Z[-3]")[1]
         .chamfer(2)
     )
 
