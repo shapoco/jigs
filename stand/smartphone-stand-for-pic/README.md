@@ -32,6 +32,7 @@
 
 ## 作例
 
+[なみお](https://x.com/nyamio/status/1947229601098272905)さん、
 [ほりたみゅ](https://bsky.app/profile/hyrodium.bsky.social/post/3lkwtc2dxuk2a)さん、
 [kaiba](https://x.com/kaiba/status/1902588182216261970)さん、
 [くろゴマ](https://x.com/chrogoma/status/1893577562544288175)さん、
