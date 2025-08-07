@@ -32,6 +32,7 @@
 
 ## 作例
 
+[らびやん](https://twitter.com/lovyan03/status/1953413691329896871) さん、
 [dominoTECH](https://twitter.com/dominodaosi106/status/1953412634335994010) さん、
 [なみお](https://x.com/nyamio/status/1947229601098272905) さん、
 [ほりたみゅ](https://bsky.app/profile/hyrodium.bsky.social/post/3lkwtc2dxuk2a) さん、
