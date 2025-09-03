@@ -32,6 +32,7 @@
 
 ## 作例
 
+[A.Amag](https://x.com/ame_feb4/status/1962052576461086787) さん、
 [らびやん](https://twitter.com/lovyan03/status/1953413691329896871) さん、
 [dominoTECH](https://twitter.com/dominodaosi106/status/1953412634335994010) さん、
 [なみお](https://x.com/nyamio/status/1947229601098272905) さん、
