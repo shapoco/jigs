@@ -41,8 +41,14 @@
 [kaiba](https://x.com/kaiba/status/1902588182216261970) さん、
 [くろゴマ](https://x.com/chrogoma/status/1893577562544288175) さん、
 [あっきぃ](https://misskey.io/notes/a4e209jp9shp09ze) さん 
-<!-- [シャポコ](https://x.com/shapoco/status/1889340554968018978) -->
 
 ## ギャラリー
 
 ![](./images/pic0.jpg) ![](./images/pic1.jpg) ![](./images/pic2.jpg) ![](./images/pic3.jpg) ![](./images/pic4.jpg)
+
+## 関連情報
+
+- SNS 投稿
+    - [X (Twitter)](https://x.com/shapoco/status/1889340554968018978)
+    - [Misskey.io](misskey.io/notes/a1bimwemphqj06be)
+    - [Bluesky](https://bsky.app/profile/shapoco.net/post/3lcesafdejc2a)
