@@ -5,7 +5,7 @@
 Battery cover for 006P / PP3 / 6LR61. It covers the terminals and prevents shorts. There are holes at the position of each terminals, so you can check the voltage with the cover attached.
 
 > [!CAUTION]
-> The infill setting should be 100% to avoid breaking the protrusions on the cathode side.
+> The protrusion on the negative terminal side is fragile, so we recommend setting the infill to 100%..
 
 ## License
 
