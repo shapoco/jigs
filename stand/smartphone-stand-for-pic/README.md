@@ -32,10 +32,11 @@
 
 ## 作例
 
-[なるみ](https://twitter.com/queenmk/status/1964912723764171105) さん、
+[むれねず](https://x.com/murenezumi/status/1989902955647246693) さん、
+[なるみ](https://x.com/queenmk/status/1964912723764171105) さん、
 [A.Amag](https://x.com/ame_feb4/status/1962052576461086787) さん、
-[らびやん](https://twitter.com/lovyan03/status/1953413691329896871) さん、
-[dominoTECH](https://twitter.com/dominodaosi106/status/1953412634335994010) さん、
+[らびやん](https://x.com/lovyan03/status/1953413691329896871) さん、
+[dominoTECH](https://x.com/dominodaosi106/status/1953412634335994010) さん、
 [なみお](https://x.com/nyamio/status/1947229601098272905) さん、
 [ほりたみゅ](https://bsky.app/profile/hyrodium.bsky.social/post/3lkwtc2dxuk2a) さん、
 [kaiba](https://x.com/kaiba/status/1902588182216261970) さん、
