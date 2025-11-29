@@ -483,11 +483,17 @@ abxy_key_step = abxy_key.rotate((0, 0, 0), (0, 0, 1), 45).rotate(
     (0, 0, 0), (1, 0, 0), 90
 )
 
-front.export("case_front.step")
-back.export("case_back.step")
-dir_key_step.export("dir_key.step")
-abxy_key_step.export("abxy_key.step")
-power_switch.export("power_switch.step")
+front.export("step/case_front.step")
+back.export("step/case_back.step")
+dir_key_step.export("step/dir_key.step")
+abxy_key_step.export("step/abxy_key.step")
+power_switch.export("step/power_switch.step")
+
+front.export("stl/case_front.stl")
+back.export("stl/case_back.stl")
+dir_key_step.export("stl/dir_key.stl")
+abxy_key_step.export("stl/abxy_key.stl")
+power_switch.export("stl/power_switch.stl")
 
 back = back.rotate((0, 0, 0), (0, 1, 0), 180).translate((0, 0, CASE_HEIGHT + 10))
 

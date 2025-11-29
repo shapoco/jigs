@@ -40,6 +40,5 @@ solids = solids.union(raft)
 
 show_object(solids)
 
-
-
-solids.export("pivot.step")
+solids.export("step/pivot.step")
+solids.export("stl/pivot.stl")
