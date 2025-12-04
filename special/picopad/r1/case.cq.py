@@ -49,6 +49,11 @@ POWER_SW_OFFSET_Y = 5.5
 POWER_SW_HOLE_WIDTH = 6.5
 POWER_SW_THICK = 2
 
+RESET_SW_DIAMETER = 3
+RESET_SW_HEIGHT = 5
+RESET_SW_OFFSET_X = 10.5
+RESET_SW_OFFSET_Y = 15
+
 SPEAKER_OFFSET_X = BOARD_WIDTH / 2 - 12
 SPEAKER_OFFSET_Y = BOARD_LENGTH / 2 - 8
 
@@ -323,6 +328,16 @@ back = back.cut(cutter.translate((-5, 0, 0)))
 back = back.cut(cutter.translate((0, 0, 0)))
 back = back.cut(cutter.translate((5, 0, 0)))
 
+# リセットボタン用の穴
+back = (
+    back.faces("<Z")
+    .workplane()
+    .pushPoints(
+        [(-CASE_WIDTH / 2 + RESET_SW_OFFSET_X, CASE_LENGTH / 2 - RESET_SW_OFFSET_Y)]
+    )
+    .hole(RESET_SW_DIAMETER + 0.5, 10)
+)
+
 # ロック
 verts = [
     (-0.25, 1),
@@ -483,17 +498,35 @@ abxy_key_step = abxy_key.rotate((0, 0, 0), (0, 0, 1), 45).rotate(
     (0, 0, 0), (1, 0, 0), 90
 )
 
+# リセットボタン
+verts = [
+    (0, 0),
+    (RESET_SW_DIAMETER / 2 + 1, 0),
+    (RESET_SW_DIAMETER / 2 + 1, RESET_SW_HEIGHT - WALL_THICK - 0.5),
+    (RESET_SW_DIAMETER / 2, RESET_SW_HEIGHT - WALL_THICK - 0.5),
+    (RESET_SW_DIAMETER / 2, RESET_SW_HEIGHT),
+    (0, RESET_SW_HEIGHT),
+]
+reset_switch = (
+    cq.Workplane("XZ")
+    .polyline(verts)
+    .close()
+    .revolve(360, axisStart=(0, 0, 0), axisEnd=(0, 1, 0))
+)
+
 front.export("step/case_front.step")
 back.export("step/case_back.step")
 dir_key_step.export("step/dir_key.step")
 abxy_key_step.export("step/abxy_key.step")
 power_switch.export("step/power_switch.step")
+reset_switch.export("step/reset_switch.step")
 
 front.export("stl/case_front.stl")
 back.export("stl/case_back.stl")
 dir_key_step.export("stl/dir_key.stl")
 abxy_key_step.export("stl/abxy_key.stl")
 power_switch.export("stl/power_switch.stl")
+reset_switch.export("stl/reset_switch.stl")
 
 back = back.rotate((0, 0, 0), (0, 1, 0), 180).translate((0, 0, CASE_HEIGHT + 10))
 
@@ -514,8 +547,17 @@ power_switch = power_switch.translate(
     (POWER_SW_OFFSET_X, BOARD_LENGTH / 2, CASE_HEIGHT - WALL_THICK - 0.75)
 )
 
+reset_switch = reset_switch.translate(
+    (
+        CASE_WIDTH / 2 - RESET_SW_OFFSET_X,
+        -CASE_LENGTH / 2 + RESET_SW_OFFSET_Y,
+        CASE_HEIGHT - RESET_SW_HEIGHT + 10,
+    )
+)
+
 show_object(front, options={"color": "#ddd"})
 show_object(back, options={"color": "#ddd"})
 show_object(dir_key, options={"color": "#222"})
 show_object(abxy_keys, options={"color": "#222"})
 show_object(power_switch, options={"color": "#222"})
+show_object(reset_switch, options={"color": "#222"})
