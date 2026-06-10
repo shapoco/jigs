@@ -1,4 +1,4 @@
-# Chip LED Marker Scope
+# SMD LED Orientation Scope
 
 ![](./cover.jpg)
 
