@@ -123,6 +123,6 @@ body = body.union(battery_attachment)
 
 show_object(body)
 
-base_name = f"chip-led-marker-scope-m{mirror_d}-s{stage_d}-l{led_d}"
+base_name = f"smd-led-orientation-scope-m{mirror_d}-s{stage_d}-l{led_d}"
 body.export(f"{base_name}.step")
 body.export(f"{base_name}.stl")
