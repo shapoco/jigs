@@ -4,6 +4,8 @@
  Place a chip LED on the stage and look down through the top, and the bottom marker
  — illuminated from below by a white LED — appears magnified through the concave mirror.
 
+See also: [チップ LED 手ハンダ用極性スコープ | シャポログ](https://blog.shapoco.net/2026/0610-smd-led-orientation-scope/)
+
 ![](./cover.jpg)
 
 ![](./r1/figure.png)
