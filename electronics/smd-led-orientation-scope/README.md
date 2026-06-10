@@ -1,4 +1,8 @@
-# SMD LED Orientation Scope
+# チップ LED 極性スコープ (SMD LED Orientation Scope)
+
+ A tool that uses a concave mirror to magnify and display the bottom-surface marker.
+ Place a chip LED on the stage and look down through the top, and the bottom marker
+ — illuminated from below by a white LED — appears magnified through the concave mirror.
 
 ![](./cover.jpg)
 
