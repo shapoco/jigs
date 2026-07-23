@@ -32,6 +32,7 @@
 
 ## 作例
 
+[Masahiro Kusunoki](https://x.com/ngc6589/status/2078325098470326573) さん、
 [はれ](https://x.com/Hare20K/status/2057840144548569282) さん、
 [unos](https://x.com/unos/status/2056960149060014110) さん、
 [じょーかー・わん！](https://x.com/j0ker141/status/2007037334441914548) さん、
